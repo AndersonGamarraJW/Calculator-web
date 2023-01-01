@@ -19,10 +19,11 @@ main{
     display: flex;
     justify-content: center;
 }
-.window{
+.window-calculator{
     width: 100%;
     height: 20%;
     background-color: #1A120B;
+    color:white;
 }
 .buttons-container{
     display: flex;
@@ -42,4 +43,6 @@ div .operation{
     flex: 0 0 auto;
     background-color: #D5CEA3;
 }
-
+.operation{
+    color: white;
+}
